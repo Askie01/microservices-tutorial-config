@@ -18,20 +18,3 @@ target/
 *.iws
 *.iml
 *.ipr
-
-### ENV ###
-/db.env
-/jpa.env
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
-.vscode/
