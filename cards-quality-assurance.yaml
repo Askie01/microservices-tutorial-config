@@ -1,0 +1,35 @@
+logging:
+  logback:
+    rolling-policy:
+      max-file-size: 10MB
+      max-history: 30
+  level:
+    root: ERROR
+    com:
+      zaxxer:
+        hikari: INFO
+    org:
+      springframework: INFO
+      hibernate: INFO
+      apache:
+        catalina: INFO
+      askie01:
+        accounts: DEBUG
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+build:
+  version: 2.0.0
+
+cards:
+  message: "{cipher}1603b700429c6be50397ec7bb6b759de20d2ac0c6dc68195225c5cf89b33717691a0fd63a49bfcebf9b9b67f48ee4a9e5451ef26ca72c3657a6f2018653ee505105c01b031572f374e63ce767e558de81d73e0b940041fab555789bd2e7161fc"
+  contact-details:
+    name: "{cipher}396309f8d2962ce5c3316c23b0c6111c4b00d7646568d64ba5cdb92ad72c4a6f83be4b642d65aa0ec4b43fce6e679071d96b83b25bc07a0b5b9c0fc43b16aaf0"
+    email: "{cipher}e7e5f155bb2586325fc1f032e533a6b407b100673e7dc4112b225f3e2deefa4aa2adbe94bace415eb9f3b9bf7c7f6502acddfca1674a8db69fb4afa89153854d"
+  on-call-support:
+    - "{cipher}bcba34cd0fc5e402a3a275b5db15c12406bc0fec3524cbf30d3566cb2c9e8018"
+    - "{cipher}b3b65e896a5b3ee3f84901fb47a082bb9dc171856e4138c6867da7d33617f7b0"
