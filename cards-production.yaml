@@ -14,7 +14,7 @@ logging:
       apache:
         catalina: INFO
       askie01:
-        accounts: DEBUG
+        cards: DEBUG
 
 management:
   endpoints:
