@@ -1,3 +1,16 @@
+spring:
+  rabbitmq:
+    host: "localhost"
+    port: 5672
+    username: "guest"
+    password: "guest"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
 logging:
   logback:
     rolling-policy:
@@ -15,12 +28,6 @@ logging:
         catalina: INFO
       askie01:
         accounts: DEBUG
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
 
 build:
   version: 3.0.0
