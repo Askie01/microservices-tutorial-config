@@ -26,10 +26,10 @@ build:
   version: 2.0.0
 
 accounts:
-  message: "Welcome to Askie01 accounts related Quality Assurance APIs"
+  message: "{cipher}1a503075218b5fe282e2af562ee039d56005314276d22f9e693c6960d6ef49125aa8d006b3095c1fd61945b12d428c08d8a82579d061267965217f6aa5aceda577bbb46ef2cd8bf4922d4b8551faa6ebe54486edf8604a81263e2855803a45bd"
   contact-details:
-    name: "Adam Pawłowski - Quality Assurance lead"
-    email: "adam.pawlowski@quality-assurance.com"
+    name: "{cipher}396309f8d2962ce5c3316c23b0c6111c4b00d7646568d64ba5cdb92ad72c4a6f83be4b642d65aa0ec4b43fce6e679071d96b83b25bc07a0b5b9c0fc43b16aaf0"
+    email: "{cipher}e7e5f155bb2586325fc1f032e533a6b407b100673e7dc4112b225f3e2deefa4aa2adbe94bace415eb9f3b9bf7c7f6502acddfca1674a8db69fb4afa89153854d"
   on-call-support:
-    - 333333333
-    - 444444444
+    - "{cipher}bcba34cd0fc5e402a3a275b5db15c12406bc0fec3524cbf30d3566cb2c9e8018"
+    - "{cipher}b3b65e896a5b3ee3f84901fb47a082bb9dc171856e4138c6867da7d33617f7b0"

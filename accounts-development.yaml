@@ -26,10 +26,10 @@ build:
   version: 3.0.0
 
 accounts:
-  message: "Welcome to Askie01 accounts related development APIs"
+  message: "{cipher}742bf4cc55a4ccd19bb2833ff28939a0137f0922c5323c5529832db340aca6839ec82345c1c16fea1db72cf6ecfcc8e92f1c58a5b4059fcf94e9e934d346c9563799a43293406ecc7a3bd64e42ea7179ab387e0af65d4c163a3d6d5f9425ff9f"
   contact-details:
-    name: "Adam Pawłowski - Developer"
-    email: "adam.pawlowski@development.com"
+    name: "{cipher}1f5975a04a0448b6ce03fe988b29ffc9bde69b206acfa5b5ff289d85a2af29a5c6f35b8d8257d19718af82e4753faa7a"
+    email: "{cipher}02f0cb994aad389d21cabf33543b662266c2f16b6310face2e55c29a860157be7a1a91809424ef59c0ca6d5fb29b326e"
   on-call-support:
-    - 111111111
-    - 222222222
+    - "{cipher}5520b287b61833f61a065f6cebdce00ed98ffac40cbefb3f3740757314712883"
+    - "{cipher}6642ae68294a02e619ea7ff1981533a60679b4db7d6364bb266d48a6c451220c"
