@@ -1,0 +1,35 @@
+logging:
+  logback:
+    rolling-policy:
+      max-file-size: 10MB
+      max-history: 30
+  level:
+    root: ERROR
+    com:
+      zaxxer:
+        hikari: INFO
+    org:
+      springframework: INFO
+      hibernate: INFO
+      apache:
+        catalina: INFO
+      askie01:
+        accounts: DEBUG
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+build:
+  version: 3.0.0
+
+accounts:
+  message: "Welcome to Askie01 accounts related development APIs"
+  contact-details:
+    name: "Adam Pawłowski - Developer"
+    email: "adam.pawlowski@development.com"
+  on-call-support:
+    - 111111111
+    - 222222222
