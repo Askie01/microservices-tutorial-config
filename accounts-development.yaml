@@ -30,7 +30,7 @@ logging:
         accounts: DEBUG
 
 build:
-  version: 3.0.6
+  version: 3.0.7
 
 accounts:
   message: "{cipher}742bf4cc55a4ccd19bb2833ff28939a0137f0922c5323c5529832db340aca6839ec82345c1c16fea1db72cf6ecfcc8e92f1c58a5b4059fcf94e9e934d346c9563799a43293406ecc7a3bd64e42ea7179ab387e0af65d4c163a3d6d5f9425ff9f"
