@@ -29,30 +29,6 @@ management:
       exposure:
         include: "*"
 
-logging:
-  file:
-    name: accounts/src/main/java/com/askie01/accounts/logs/accounts-microservice.log
-
-  logback:
-    rolling-policy:
-      max-file-size: 10MB
-      max-history: 30
-
-  level:
-    root: ERROR
-    com:
-      zaxxer:
-        hikari: INFO
-
-    org:
-      springframework: INFO
-      hibernate: INFO
-      apache:
-        catalina: INFO
-
-      askie01:
-        accounts: DEBUG
-
 build:
   version: 3.0.0
 

@@ -29,30 +29,6 @@ management:
       exposure:
         include: "*"
 
-logging:
-  file:
-    name: loans/src/main/java/com/askie01/loans/logs/loans-microservice.log
-
-  logback:
-    rolling-policy:
-      max-file-size: 10MB
-      max-history: 30
-
-  level:
-    root: ERROR
-    com:
-      zaxxer:
-        hikari: INFO
-
-    org:
-      springframework: INFO
-      hibernate: INFO
-      apache:
-        catalina: INFO
-
-      askie01:
-        loans: DEBUG
-
 build:
   version: 2.0.0
 
