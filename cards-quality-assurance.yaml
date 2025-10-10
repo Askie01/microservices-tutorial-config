@@ -1,28 +1,3 @@
-server:
-  port: 9000
-
-spring:
-  datasource:
-    driver-class-name: org.h2.Driver
-    url: jdbc:h2:mem:embedded-database
-    username: root
-    password: root
-
-  h2:
-    console:
-      enabled: true
-
-  jpa:
-    database-platform: org.hibernate.dialect.H2Dialect
-    hibernate:
-      ddl-auto: update
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
-
 build:
   version: 2.0.0
 
@@ -31,6 +6,7 @@ cards:
   contact-details:
     name: "{cipher}396309f8d2962ce5c3316c23b0c6111c4b00d7646568d64ba5cdb92ad72c4a6f83be4b642d65aa0ec4b43fce6e679071d96b83b25bc07a0b5b9c0fc43b16aaf0"
     email: "{cipher}e7e5f155bb2586325fc1f032e533a6b407b100673e7dc4112b225f3e2deefa4aa2adbe94bace415eb9f3b9bf7c7f6502acddfca1674a8db69fb4afa89153854d"
+
   on-call-support:
     - "{cipher}bcba34cd0fc5e402a3a275b5db15c12406bc0fec3524cbf30d3566cb2c9e8018"
     - "{cipher}b3b65e896a5b3ee3f84901fb47a082bb9dc171856e4138c6867da7d33617f7b0"
